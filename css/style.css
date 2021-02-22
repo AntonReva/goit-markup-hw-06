@@ -373,18 +373,22 @@ a {
 
 .work-overlay {
   position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 370px;
   height: 70px;
   left: 0;
   bottom: 0;
+
   background-color: rgba(47, 48, 58, 0.8);
 }
 
 .work-overlay p {
-  padding: 27px 0;
   font-size: 14px;
   line-height: 1.143;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-wight-color);
@@ -415,8 +419,7 @@ a {
 .team-list > li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list li + li {
@@ -444,6 +447,7 @@ a {
   text-align: center;
   padding: 30px 32px;
   background-color: var(--primary-wight-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-socium ul {
